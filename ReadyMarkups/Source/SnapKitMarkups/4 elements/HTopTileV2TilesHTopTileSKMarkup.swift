@@ -16,14 +16,14 @@ open class HTopTileV2TilesHTopTileSKMarkup: HTopTileV2TilesHTopTileMarkup {
   open var tile2Top: CGFloat = 10
   open var tile2Trailing: CGFloat = 10
   open var tile2Height: CGFloat? = 50
-  open var tile2Width: CGFloat? = 50
+  open var tile2Width: CGFloat?
   
   open var tile3Leading: CGFloat = 10
   open var tile3Top: CGFloat = 10
   open var tile3Trailing: CGFloat = 10
   open var tile3Bottom: CGFloat = 10
   open var tile3Height: CGFloat? = 50
-  open var tile3Width: CGFloat? = 50
+  open var tile3Width: CGFloat?
   
   open var tile4Top: CGFloat = 10
   open var tile4Trailing: CGFloat = 10
@@ -42,7 +42,7 @@ open class HTopTileV2TilesHTopTileSKMarkup: HTopTileV2TilesHTopTileMarkup {
     tile2.snp.makeConstraints { make in
       make.leading.equalTo(tile1.snp.trailing).offset(tile2Leading)
       make.top.equalToSuperview().offset(tile2Top)
-      make.trailing.equalTo(tile4.snp.leading).offset(tile2Trailing)
+      make.trailing.equalTo(tile4.snp.leading).offset(-tile2Trailing)
       if let tile2Height = tile2Height { make.height.equalTo(tile2Height) }
       if let tile2Width = tile2Width { make.width.equalTo(tile2Width) }
     }
@@ -50,7 +50,7 @@ open class HTopTileV2TilesHTopTileSKMarkup: HTopTileV2TilesHTopTileMarkup {
       make.leading.equalTo(tile1.snp.trailing).offset(tile3Leading)
       make.top.equalTo(tile2.snp.bottom).offset(tile3Top)
       make.bottom.equalToSuperview().inset(tile3Bottom)
-      make.trailing.equalTo(tile4.snp.leading).offset(tile3Trailing)
+      make.trailing.equalTo(tile4.snp.leading).offset(-tile3Trailing)
       if let tile3Height = tile3Height { make.height.equalTo(tile3Height) }
       if let tile3Width = tile3Width { make.width.equalTo(tile3Width) }
     }
