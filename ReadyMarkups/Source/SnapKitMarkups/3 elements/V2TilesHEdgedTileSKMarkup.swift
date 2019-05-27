@@ -10,7 +10,7 @@ open class V2TilesHEdgedTileSKMarkup: V2TilesHEdgedTileMarkup {
   open var tile1Leading: CGFloat = 10
   open var tile1Top: CGFloat = 10
   open var tile1Trailing: CGFloat = 10
-  open var tile1Width: CGFloat? = 50
+  open var tile1Width: CGFloat?
   open var tile1Height: CGFloat? = 50
   
   open var tile2Leading: CGFloat = 10
@@ -18,13 +18,15 @@ open class V2TilesHEdgedTileSKMarkup: V2TilesHEdgedTileMarkup {
   open var tile2Bottom: CGFloat = 10
   open var tile2Trailing: CGFloat = 10
   open var tile2Height: CGFloat? = 50
-  open var tile2Width: CGFloat? = 50
+  open var tile2Width: CGFloat?
   
   open var tile3Top: CGFloat = 10
   open var tile3Trailing: CGFloat = 10
   open var tile3Bottom: CGFloat = 10
   open var tile3Height: CGFloat? = 50
   open var tile3Width: CGFloat? = 50
+  
+  public init() {}
   
   open func applyToView(tile1: UIView, tile2: UIView, tile3: UIView) {
     tile1.snp.makeConstraints { make in

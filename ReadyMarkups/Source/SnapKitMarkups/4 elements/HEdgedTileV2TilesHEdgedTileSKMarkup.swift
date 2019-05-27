@@ -30,6 +30,8 @@ open class HTopTileV2TilesHTopTileSKMarkup: HTopTileV2TilesHTopTileMarkup {
   open var tile4Height: CGFloat? = 50
   open var tile4Width: CGFloat? = 50
   
+  public init() {}
+  
   open func applyToView(tile1: UIView, tile2: UIView, tile3: UIView, tile4: UIView) {
     tile1.snp.makeConstraints { make in
       make.leading.equalToSuperview().offset(tile1Leading)
