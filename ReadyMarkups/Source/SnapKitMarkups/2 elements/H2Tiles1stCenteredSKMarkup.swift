@@ -32,7 +32,7 @@ open class H2Tiles1stCenteredSKMarkup: H2Tiles1stCenteredMarkup {
       if let tile1Width = tile1Width { make.width.equalTo(tile1Width) }
     }
     tile2.snp.makeConstraints { make in
-      make.leading.equalTo(tile1).offset(tile2Leading)
+      make.leading.equalTo(tile1.snp.trailing).offset(tile2Leading)
       make.top.equalToSuperview().offset(tile2Top)
       make.trailing.equalToSuperview().inset(tile2Trailing)
       make.bottom.equalToSuperview().inset(tile2Bottom)
