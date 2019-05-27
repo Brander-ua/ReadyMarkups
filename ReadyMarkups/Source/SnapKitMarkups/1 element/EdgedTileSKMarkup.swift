@@ -13,7 +13,7 @@ open class EdgedTileSKMarkup: EdgedTileMarkup {
   open var trailing: CGFloat = 10
   open var bottom: CGFloat = 10
   open var width: CGFloat?
-  open var height: CGFloat?
+  open var height: CGFloat? = 50
   
   public init() {}
   
