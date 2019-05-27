@@ -11,13 +11,13 @@ open class V2Tiles2ndCenteredSKMarkup: V2Tiles2ndCenteredMarkup {
   open var tile1Top: CGFloat = 10
   open var tile1Trailing: CGFloat = 10
   open var tile1Height: CGFloat? = 50
-  open var tile1Width: CGFloat? = 50
+  open var tile1Width: CGFloat?
   
   open var tile2Top: CGFloat = 10
   open var tile2Bottom: CGFloat = 10
   open var tile2CenterXOffset: CGFloat = 0
   open var tile2Height: CGFloat? = 50
-  open var tile2Width: CGFloat? = 50
+  open var tile2Width: CGFloat?
   
   public init() {}
   

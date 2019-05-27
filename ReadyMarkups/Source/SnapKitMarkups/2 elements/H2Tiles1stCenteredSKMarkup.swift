@@ -13,14 +13,14 @@ open class H2Tiles1stCenteredSKMarkup: H2Tiles1stCenteredMarkup {
   open var tile1Leading: CGFloat = 10
   open var tile1CenterYOffset: CGFloat = 0
   open var tile1Height: CGFloat? = 50
-  open var tile1Width: CGFloat? = 50
+  open var tile1Width: CGFloat?
   
   open var tile2Leading: CGFloat = 10
   open var tile2Top: CGFloat = 10
   open var tile2Trailing: CGFloat = 10
   open var tile2Bottom: CGFloat = 10
   open var tile2Height: CGFloat? = 50
-  open var tile2Width: CGFloat? = 50
+  open var tile2Width: CGFloat?
   
   public init() {}
   
