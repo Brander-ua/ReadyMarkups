@@ -1,0 +1,6 @@
+framework module ReadyMarkups {
+  umbrella header "ReadyMarkups-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+PODS:
+  - ReadyMarkups (0.1.0):
+    - SnapKit (>= 4.2.0)
+  - SnapKit (5.0.0)
+
+DEPENDENCIES:
+  - ReadyMarkups (~> 0.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ReadyMarkups
+    - SnapKit
+
+SPEC CHECKSUMS:
+  ReadyMarkups: 0b5a9441f7d22ab0186fbcb2fb22ac76cf63f31c
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+
+PODFILE CHECKSUM: 7111eb51c51e810dc3750133a77841531027e01c
+
+COCOAPODS: 1.6.1
