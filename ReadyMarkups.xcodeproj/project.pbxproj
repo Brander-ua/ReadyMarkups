@@ -394,11 +394,11 @@
 				30D7EA32229BE9B40014E31B /* H2Tiles1stCenteredMarkup.png */,
 				30D7EA33229BE9B40014E31B /* H2Tiles2ndCenteredMarkup.png */,
 				30D7EA34229BE9B40014E31B /* H2TilesEdgedMarkup.png */,
-				30D7EA35229BE9B40014E31B /* TileOverEdgedTileMarkup.png */,
 				30D7EA36229BE9B40014E31B /* V2TilesEdgedMarkup.png */,
-				30D7EA37229BE9B40014E31B /* TileOverCenteredTileMarkup.png */,
 				30D7EA38229BE9B40014E31B /* V2Tiles2ndCenteredMarkup.png */,
 				30D7EA39229BE9B40014E31B /* V2Tiles1stCenteredMarkup.png */,
+				30D7EA37229BE9B40014E31B /* TileOverCenteredTileMarkup.png */,
+				30D7EA35229BE9B40014E31B /* TileOverEdgedTileMarkup.png */,
 			);
 			path = "2 elements";
 			sourceTree = "<group>";
