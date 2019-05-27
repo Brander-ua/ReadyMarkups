@@ -17,7 +17,7 @@ open class V2Tiles2ndCenteredSKMarkup: V2Tiles2ndCenteredMarkup {
   open var tile2Bottom: CGFloat = 10
   open var tile2CenterXOffset: CGFloat = 0
   open var tile2Height: CGFloat? = 50
-  open var tile2Width: CGFloat?
+  open var tile2Width: CGFloat? = 50
   
   public init() {}
   

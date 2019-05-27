@@ -14,7 +14,7 @@ open class H2TilesEdgedSKMarkup: H2TilesEdgedMarkup {
   open var tile1Top: CGFloat = 10
   open var tile1Bottom: CGFloat = 10
   open var tile1Height: CGFloat? = 50
-  open var tile1Width: CGFloat?
+  open var tile1Width: CGFloat? = 50
   
   open var tile2Leading: CGFloat = 10
   open var tile2Top: CGFloat = 10

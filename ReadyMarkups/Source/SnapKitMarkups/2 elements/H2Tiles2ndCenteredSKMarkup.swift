@@ -20,7 +20,7 @@ open class H2Tiles2ndCenteredSKMarkup: H2Tiles2ndCenteredMarkup {
   open var tile2CenterYOffset: CGFloat = 0
   open var tile2Trailing: CGFloat = 10
   open var tile2Height: CGFloat? = 50
-  open var tile2Width: CGFloat?
+  open var tile2Width: CGFloat? = 50
   
   public init() {}
   

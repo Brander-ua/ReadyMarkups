@@ -13,7 +13,7 @@ open class V2Tiles1stCenteredSKMarkup: V2Tiles1stCenteredMarkup {
   open var tile1CenterXOffset: CGFloat = 0
   open var tile1Top: CGFloat = 10
   open var tile1Height: CGFloat? = 50
-  open var tile1Width: CGFloat?
+  open var tile1Width: CGFloat? = 50
   
   open var tile2Top: CGFloat = 10
   open var tile2Leading: CGFloat = 10
