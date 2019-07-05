@@ -39,9 +39,28 @@ Run `carthage update` to build the framework and drag the built `ReadyMarkups.fr
 import ReadyMarkups
 ```
 
+## Naming rules
+
+Read name from left to right, from top to bottom.
+
+### Tips
+
+* V - vertical
+* H - horizontal
+* Edged - element, that have `left`, `top`, `right`, `bottom` constraints
+* Centered - element, that have `centerX`, `centerY` constraints.
+* 1, 2, 3.. - number of elements with simmilar characteristic 
+* 1st, 2nd - order of element
+
+### Examples
+
+* `H2Tiles` - horizontal 2 elements
+* `H2Tiles1stCentered` - horizontal 2 elements, first is centered
+* `V3Edged` - vertical 3 elements, each has left, top, right, bottom constraints
+
 ## Author
 
-Aleksandr Orlov, luximetr.education@gmail.com
+Aleksandr Orlov, aleksandr.orlov@branderstudio.com
 
 ## License
 
