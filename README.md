@@ -45,6 +45,7 @@ Read name from left to right, from top to bottom.
 
 ### Tips
 
+* Tile - element of markup, view
 * V - vertical
 * H - horizontal
 * Edged - element, that have `left`, `top`, `right`, `bottom` constraints
@@ -56,7 +57,7 @@ Read name from left to right, from top to bottom.
 
 * `H2Tiles` - horizontal 2 elements
 * `H2Tiles1stCentered` - horizontal 2 elements, first is centered
-* `V3Edged` - vertical 3 elements, each has left, top, right, bottom constraints
+* `V3EdgedTiles` - vertical 3 elements, each has left, top, right, bottom constraints
 
 ## Author
 
