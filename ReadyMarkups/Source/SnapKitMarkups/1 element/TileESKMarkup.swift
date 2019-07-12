@@ -1,12 +1,12 @@
 //
-//  EdgedTileSKMarkup.swift
-//  ReadyMarkups
+//  Created by branderstudio on 5/23/19.
+//  Copyright © 2019 branderstudio. All rights reserved.
 //
 
 import Foundation
 import SnapKit
 
-open class EdgedTileSKMarkup: EdgedTileMarkup {
+open class TileESKMarkup: TileEMarkup {
   
   open var leading: CGFloat = 10
   open var top: CGFloat = 10

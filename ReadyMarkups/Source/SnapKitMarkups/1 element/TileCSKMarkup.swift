@@ -1,11 +1,11 @@
 //
-//  CenteredTileSKMarkup.swift
-//  ReadyMarkups
+//  Created by branderstudio on 5/23/19.
+//  Copyright © 2019 branderstudio. All rights reserved.
 //
 
 import Foundation
 
-open class CenteredTileSKMarkup: CenteredTileMarkup {
+open class TileCSKMarkup: TileCMarkup {
   
   open var centerYOffset: CGFloat = 0
   open var centerXOffset: CGFloat = 0

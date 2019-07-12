@@ -1,18 +1,16 @@
 //
-//  TileOverEdgedTileSKMarkup.swift
-//  ReadyMarkups
+//  Created by branderstudio on 5/23/19.
+//  Copyright © 2019 branderstudio. All rights reserved.
 //
 
 import Foundation
 
-open class TileOverEdgedTileSKMarkup: TileOverEdgedTileMarkup {
+open class TileCZTileESKMarkup: TileCZTileEMarkup {
   
-  open var tile1Leading: CGFloat = 10
-  open var tile1Top: CGFloat = 10
-  open var tile1Trailing: CGFloat = 10
-  open var tile1Bottom: CGFloat = 10
+  open var tile1CenterYOffset: CGFloat = 0
+  open var tile1CenterXOffset: CGFloat = 0
   open var tile1Height: CGFloat? = 50
-  open var tile1Width: CGFloat?
+  open var tile1Width: CGFloat? = 50
   
   open var tile2Leading: CGFloat = 0
   open var tile2Top: CGFloat = 0
@@ -23,12 +21,10 @@ open class TileOverEdgedTileSKMarkup: TileOverEdgedTileMarkup {
   
   open func applyToView(tile1: UIView, tile2: UIView) {
     tile1.snp.makeConstraints { make in
-      make.leading.equalToSuperview().offset(tile1Leading)
-      make.top.equalToSuperview().offset(tile1Top)
-      make.trailing.equalToSuperview().inset(tile1Trailing)
-      make.bottom.equalToSuperview().inset(tile1Bottom)
-      if let tile1Width = tile1Width { make.width.equalTo(tile1Width) }
+      make.centerY.equalToSuperview().offset(tile1CenterYOffset)
+      make.centerX.equalToSuperview().offset(tile1CenterXOffset)
       if let tile1Height = tile1Height { make.height.equalTo(tile1Height) }
+      if let tile1Width = tile1Width { make.width.equalTo(tile1Width) }
     }
     tile2.snp.makeConstraints { make in
       make.leading.equalToSuperview().offset(tile2Leading)

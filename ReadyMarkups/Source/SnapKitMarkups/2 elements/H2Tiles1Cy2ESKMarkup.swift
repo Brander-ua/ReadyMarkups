@@ -1,14 +1,11 @@
 //
-//  H2Tiles1stCenteredSKMarkup.swift
-//  ReadyMarkups
-//
 //  Created by branderstudio on 5/23/19.
 //  Copyright © 2019 branderstudio. All rights reserved.
 //
 
 import Foundation
 
-open class H2Tiles1stCenteredSKMarkup: H2Tiles1stCenteredMarkup {
+open class H2Tiles1Cy2ESKMarkup: H2Tiles1Cy2EMarkup {
   
   open var tile1Leading: CGFloat = 10
   open var tile1CenterYOffset: CGFloat = 0
