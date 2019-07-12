@@ -21,7 +21,7 @@
 		303B605A22967FC500B8CE4D /* V2Tiles1Cx2ESKMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B605922967FC500B8CE4D /* V2Tiles1Cx2ESKMarkup.swift */; };
 		303B605C2296802E00B8CE4D /* H2Tiles1Cy2EMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B605B2296802E00B8CE4D /* H2Tiles1Cy2EMarkup.swift */; };
 		303B605E2296854A00B8CE4D /* H2Tiles1E2CyMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B605D2296854A00B8CE4D /* H2Tiles1E2CyMarkup.swift */; };
-		303B60602296858600B8CE4D /* V2Tiles1E2CxMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B605F2296858600B8CE4D /* V2Tiles1E2CxMarkup.swift */; };
+		303B60602296858600B8CE4D /* V2Tiles1E2CxSKMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B605F2296858600B8CE4D /* V2Tiles1E2CxSKMarkup.swift */; };
 		303B60622296898100B8CE4D /* V2Tiles1Cx2EMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B60612296898100B8CE4D /* V2Tiles1Cx2EMarkup.swift */; };
 		303B606622968A8B00B8CE4D /* V2Tiles1E2CxMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B606522968A8B00B8CE4D /* V2Tiles1E2CxMarkup.swift */; };
 		303B606822968AE400B8CE4D /* H2Tiles1Cy2ESKMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B606722968AE400B8CE4D /* H2Tiles1Cy2ESKMarkup.swift */; };
@@ -35,17 +35,17 @@
 		303B608A229721BB00B8CE4D /* TileEZTileESKMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6089229721BB00B8CE4D /* TileEZTileESKMarkup.swift */; };
 		303B608C2297235400B8CE4D /* TileCZTileEMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B608B2297235400B8CE4D /* TileCZTileEMarkup.swift */; };
 		303B608E2297238700B8CE4D /* TileCZTileESKMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B608D2297238700B8CE4D /* TileCZTileESKMarkup.swift */; };
-		303B612A229B021100B8CE4D /* HEdgedTileV2TilesMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6129229B021100B8CE4D /* HEdgedTileV2TilesMarkup.swift */; };
-		303B612D229B025C00B8CE4D /* HEdgedTileV2TilesSKMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B612C229B025C00B8CE4D /* HEdgedTileV2TilesSKMarkup.swift */; };
-		303B612F229B062800B8CE4D /* V2TilesHEdgedTileMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B612E229B062800B8CE4D /* V2TilesHEdgedTileMarkup.swift */; };
-		303B6131229B065700B8CE4D /* V2TilesHEdgedTileSKMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6130229B065700B8CE4D /* V2TilesHEdgedTileSKMarkup.swift */; };
-		303B6133229B089800B8CE4D /* V3EdgedTilesMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6132229B089800B8CE4D /* V3EdgedTilesMarkup.swift */; };
-		303B6135229B08C200B8CE4D /* V3EdgedTilesSKMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6134229B08C200B8CE4D /* V3EdgedTilesSKMarkup.swift */; };
-		303B6137229B0AAB00B8CE4D /* HCenteredTileTileCenteredTileMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6136229B0AAB00B8CE4D /* HCenteredTileTileCenteredTileMarkup.swift */; };
-		303B6139229B0ACB00B8CE4D /* HCenteredTileTileCenteredTileSKMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6138229B0ACB00B8CE4D /* HCenteredTileTileCenteredTileSKMarkup.swift */; };
-		303B613B229B0C5100B8CE4D /* H3EdgedTilesMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B613A229B0C5100B8CE4D /* H3EdgedTilesMarkup.swift */; };
-		303B613D229B0C7E00B8CE4D /* H3EdgedTilesSKMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B613C229B0C7E00B8CE4D /* H3EdgedTilesSKMarkup.swift */; };
-		303B6145229B1AF400B8CE4D /* HTopTileV2TilesHTopTileMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6144229B1AF400B8CE4D /* HTopTileV2TilesHTopTileMarkup.swift */; };
+		303B612A229B021100B8CE4D /* HV2TilesEMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6129229B021100B8CE4D /* HV2TilesEMarkup.swift */; };
+		303B612D229B025C00B8CE4D /* HV2TilesESKMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B612C229B025C00B8CE4D /* HV2TilesESKMarkup.swift */; };
+		303B612F229B062800B8CE4D /* V2HTilesEMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B612E229B062800B8CE4D /* V2HTilesEMarkup.swift */; };
+		303B6131229B065700B8CE4D /* V2HTilesESKMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6130229B065700B8CE4D /* V2HTilesESKMarkup.swift */; };
+		303B6133229B089800B8CE4D /* V3TilesEMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6132229B089800B8CE4D /* V3TilesEMarkup.swift */; };
+		303B6135229B08C200B8CE4D /* V3TilesESKMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6134229B08C200B8CE4D /* V3TilesESKMarkup.swift */; };
+		303B6137229B0AAB00B8CE4D /* H3Tiles1Cy2E3CyMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6136229B0AAB00B8CE4D /* H3Tiles1Cy2E3CyMarkup.swift */; };
+		303B6139229B0ACB00B8CE4D /* H3Tiles1Cy2E3CySKMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6138229B0ACB00B8CE4D /* H3Tiles1Cy2E3CySKMarkup.swift */; };
+		303B613B229B0C5100B8CE4D /* H3TilesEMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B613A229B0C5100B8CE4D /* H3TilesEMarkup.swift */; };
+		303B613D229B0C7E00B8CE4D /* H3TilesESKMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B613C229B0C7E00B8CE4D /* H3TilesESKMarkup.swift */; };
+		303B6145229B1AF400B8CE4D /* HV2HTilesEMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6144229B1AF400B8CE4D /* HV2HTilesEMarkup.swift */; };
 		303B6147229B1B1000B8CE4D /* Tiles4Markup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6146229B1B1000B8CE4D /* Tiles4Markup.swift */; };
 		303B6149229B1B4100B8CE4D /* HTopTileV2TilesHTopTileSKMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B6148229B1B4100B8CE4D /* HTopTileV2TilesHTopTileSKMarkup.swift */; };
 		30D7EA2E229BD91D0014E31B /* EdgedTileMarkup.png in Resources */ = {isa = PBXBuildFile; fileRef = 30D7EA2D229BD91D0014E31B /* EdgedTileMarkup.png */; };
@@ -98,7 +98,7 @@
 		303B605922967FC500B8CE4D /* V2Tiles1Cx2ESKMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2Tiles1Cx2ESKMarkup.swift; sourceTree = "<group>"; };
 		303B605B2296802E00B8CE4D /* H2Tiles1Cy2EMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H2Tiles1Cy2EMarkup.swift; sourceTree = "<group>"; };
 		303B605D2296854A00B8CE4D /* H2Tiles1E2CyMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H2Tiles1E2CyMarkup.swift; sourceTree = "<group>"; };
-		303B605F2296858600B8CE4D /* V2Tiles1E2CxMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2Tiles1E2CxMarkup.swift; sourceTree = "<group>"; };
+		303B605F2296858600B8CE4D /* V2Tiles1E2CxSKMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2Tiles1E2CxSKMarkup.swift; sourceTree = "<group>"; };
 		303B60612296898100B8CE4D /* V2Tiles1Cx2EMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2Tiles1Cx2EMarkup.swift; sourceTree = "<group>"; };
 		303B606522968A8B00B8CE4D /* V2Tiles1E2CxMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2Tiles1E2CxMarkup.swift; sourceTree = "<group>"; };
 		303B606722968AE400B8CE4D /* H2Tiles1Cy2ESKMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H2Tiles1Cy2ESKMarkup.swift; sourceTree = "<group>"; };
@@ -112,17 +112,17 @@
 		303B6089229721BB00B8CE4D /* TileEZTileESKMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileEZTileESKMarkup.swift; sourceTree = "<group>"; };
 		303B608B2297235400B8CE4D /* TileCZTileEMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileCZTileEMarkup.swift; sourceTree = "<group>"; };
 		303B608D2297238700B8CE4D /* TileCZTileESKMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileCZTileESKMarkup.swift; sourceTree = "<group>"; };
-		303B6129229B021100B8CE4D /* HEdgedTileV2TilesMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEdgedTileV2TilesMarkup.swift; sourceTree = "<group>"; };
-		303B612C229B025C00B8CE4D /* HEdgedTileV2TilesSKMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEdgedTileV2TilesSKMarkup.swift; sourceTree = "<group>"; };
-		303B612E229B062800B8CE4D /* V2TilesHEdgedTileMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2TilesHEdgedTileMarkup.swift; sourceTree = "<group>"; };
-		303B6130229B065700B8CE4D /* V2TilesHEdgedTileSKMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2TilesHEdgedTileSKMarkup.swift; sourceTree = "<group>"; };
-		303B6132229B089800B8CE4D /* V3EdgedTilesMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V3EdgedTilesMarkup.swift; sourceTree = "<group>"; };
-		303B6134229B08C200B8CE4D /* V3EdgedTilesSKMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V3EdgedTilesSKMarkup.swift; sourceTree = "<group>"; };
-		303B6136229B0AAB00B8CE4D /* HCenteredTileTileCenteredTileMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCenteredTileTileCenteredTileMarkup.swift; sourceTree = "<group>"; };
-		303B6138229B0ACB00B8CE4D /* HCenteredTileTileCenteredTileSKMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCenteredTileTileCenteredTileSKMarkup.swift; sourceTree = "<group>"; };
-		303B613A229B0C5100B8CE4D /* H3EdgedTilesMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H3EdgedTilesMarkup.swift; sourceTree = "<group>"; };
-		303B613C229B0C7E00B8CE4D /* H3EdgedTilesSKMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H3EdgedTilesSKMarkup.swift; sourceTree = "<group>"; };
-		303B6144229B1AF400B8CE4D /* HTopTileV2TilesHTopTileMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTopTileV2TilesHTopTileMarkup.swift; sourceTree = "<group>"; };
+		303B6129229B021100B8CE4D /* HV2TilesEMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HV2TilesEMarkup.swift; sourceTree = "<group>"; };
+		303B612C229B025C00B8CE4D /* HV2TilesESKMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HV2TilesESKMarkup.swift; sourceTree = "<group>"; };
+		303B612E229B062800B8CE4D /* V2HTilesEMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2HTilesEMarkup.swift; sourceTree = "<group>"; };
+		303B6130229B065700B8CE4D /* V2HTilesESKMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2HTilesESKMarkup.swift; sourceTree = "<group>"; };
+		303B6132229B089800B8CE4D /* V3TilesEMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V3TilesEMarkup.swift; sourceTree = "<group>"; };
+		303B6134229B08C200B8CE4D /* V3TilesESKMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V3TilesESKMarkup.swift; sourceTree = "<group>"; };
+		303B6136229B0AAB00B8CE4D /* H3Tiles1Cy2E3CyMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H3Tiles1Cy2E3CyMarkup.swift; sourceTree = "<group>"; };
+		303B6138229B0ACB00B8CE4D /* H3Tiles1Cy2E3CySKMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H3Tiles1Cy2E3CySKMarkup.swift; sourceTree = "<group>"; };
+		303B613A229B0C5100B8CE4D /* H3TilesEMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H3TilesEMarkup.swift; sourceTree = "<group>"; };
+		303B613C229B0C7E00B8CE4D /* H3TilesESKMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H3TilesESKMarkup.swift; sourceTree = "<group>"; };
+		303B6144229B1AF400B8CE4D /* HV2HTilesEMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HV2HTilesEMarkup.swift; sourceTree = "<group>"; };
 		303B6146229B1B1000B8CE4D /* Tiles4Markup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiles4Markup.swift; sourceTree = "<group>"; };
 		303B6148229B1B4100B8CE4D /* HTopTileV2TilesHTopTileSKMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTopTileV2TilesHTopTileSKMarkup.swift; sourceTree = "<group>"; };
 		30D7EA2D229BD91D0014E31B /* EdgedTileMarkup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EdgedTileMarkup.png; sourceTree = "<group>"; };
@@ -278,7 +278,7 @@
 				303B606922968D0600B8CE4D /* H2Tiles1E2CySKMarkup.swift */,
 				303B606D22968F6300B8CE4D /* H2TilesESKMarkup.swift */,
 				303B605922967FC500B8CE4D /* V2Tiles1Cx2ESKMarkup.swift */,
-				303B605F2296858600B8CE4D /* V2Tiles1E2CxMarkup.swift */,
+				303B605F2296858600B8CE4D /* V2Tiles1E2CxSKMarkup.swift */,
 				303B608022971E4B00B8CE4D /* V2TilesESKMarkup.swift */,
 				303B6089229721BB00B8CE4D /* TileEZTileESKMarkup.swift */,
 				303B608D2297238700B8CE4D /* TileCZTileESKMarkup.swift */,
@@ -306,11 +306,11 @@
 			isa = PBXGroup;
 			children = (
 				303B6083229720AB00B8CE4D /* Tiles3Markup.swift */,
-				303B6129229B021100B8CE4D /* HEdgedTileV2TilesMarkup.swift */,
-				303B612E229B062800B8CE4D /* V2TilesHEdgedTileMarkup.swift */,
-				303B6132229B089800B8CE4D /* V3EdgedTilesMarkup.swift */,
-				303B613A229B0C5100B8CE4D /* H3EdgedTilesMarkup.swift */,
-				303B6136229B0AAB00B8CE4D /* HCenteredTileTileCenteredTileMarkup.swift */,
+				303B6129229B021100B8CE4D /* HV2TilesEMarkup.swift */,
+				303B612E229B062800B8CE4D /* V2HTilesEMarkup.swift */,
+				303B6132229B089800B8CE4D /* V3TilesEMarkup.swift */,
+				303B613A229B0C5100B8CE4D /* H3TilesEMarkup.swift */,
+				303B6136229B0AAB00B8CE4D /* H3Tiles1Cy2E3CyMarkup.swift */,
 			);
 			path = "3 elements";
 			sourceTree = "<group>";
@@ -318,11 +318,11 @@
 		303B612B229B023F00B8CE4D /* 3 elements */ = {
 			isa = PBXGroup;
 			children = (
-				303B612C229B025C00B8CE4D /* HEdgedTileV2TilesSKMarkup.swift */,
-				303B6130229B065700B8CE4D /* V2TilesHEdgedTileSKMarkup.swift */,
-				303B6134229B08C200B8CE4D /* V3EdgedTilesSKMarkup.swift */,
-				303B613C229B0C7E00B8CE4D /* H3EdgedTilesSKMarkup.swift */,
-				303B6138229B0ACB00B8CE4D /* HCenteredTileTileCenteredTileSKMarkup.swift */,
+				303B612C229B025C00B8CE4D /* HV2TilesESKMarkup.swift */,
+				303B6130229B065700B8CE4D /* V2HTilesESKMarkup.swift */,
+				303B6134229B08C200B8CE4D /* V3TilesESKMarkup.swift */,
+				303B613C229B0C7E00B8CE4D /* H3TilesESKMarkup.swift */,
+				303B6138229B0ACB00B8CE4D /* H3Tiles1Cy2E3CySKMarkup.swift */,
 			);
 			path = "3 elements";
 			sourceTree = "<group>";
@@ -331,7 +331,7 @@
 			isa = PBXGroup;
 			children = (
 				303B6146229B1B1000B8CE4D /* Tiles4Markup.swift */,
-				303B6144229B1AF400B8CE4D /* HTopTileV2TilesHTopTileMarkup.swift */,
+				303B6144229B1AF400B8CE4D /* HV2HTilesEMarkup.swift */,
 			);
 			path = "4 elements";
 			sourceTree = "<group>";
@@ -624,20 +624,20 @@
 				303B602B2295354A00B8CE4D /* TileESKMarkup.swift in Sources */,
 				303B606A22968D0600B8CE4D /* H2Tiles1E2CySKMarkup.swift in Sources */,
 				303B605122958AE900B8CE4D /* TileMarkup.swift in Sources */,
-				303B6133229B089800B8CE4D /* V3EdgedTilesMarkup.swift in Sources */,
-				303B612D229B025C00B8CE4D /* HEdgedTileV2TilesSKMarkup.swift in Sources */,
-				303B60602296858600B8CE4D /* V2Tiles1E2CxMarkup.swift in Sources */,
+				303B6133229B089800B8CE4D /* V3TilesEMarkup.swift in Sources */,
+				303B612D229B025C00B8CE4D /* HV2TilesESKMarkup.swift in Sources */,
+				303B60602296858600B8CE4D /* V2Tiles1E2CxSKMarkup.swift in Sources */,
 				303B608E2297238700B8CE4D /* TileCZTileESKMarkup.swift in Sources */,
 				303B607F22971E2400B8CE4D /* V2TilesEMarkup.swift in Sources */,
-				303B613D229B0C7E00B8CE4D /* H3EdgedTilesSKMarkup.swift in Sources */,
+				303B613D229B0C7E00B8CE4D /* H3TilesESKMarkup.swift in Sources */,
 				303B606622968A8B00B8CE4D /* V2Tiles1E2CxMarkup.swift in Sources */,
-				303B6131229B065700B8CE4D /* V2TilesHEdgedTileSKMarkup.swift in Sources */,
-				303B612A229B021100B8CE4D /* HEdgedTileV2TilesMarkup.swift in Sources */,
+				303B6131229B065700B8CE4D /* V2HTilesESKMarkup.swift in Sources */,
+				303B612A229B021100B8CE4D /* HV2TilesEMarkup.swift in Sources */,
 				303B6053229594A800B8CE4D /* TileCSKMarkup.swift in Sources */,
-				303B6135229B08C200B8CE4D /* V3EdgedTilesSKMarkup.swift in Sources */,
+				303B6135229B08C200B8CE4D /* V3TilesESKMarkup.swift in Sources */,
 				303B606E22968F6300B8CE4D /* H2TilesESKMarkup.swift in Sources */,
-				303B6139229B0ACB00B8CE4D /* HCenteredTileTileCenteredTileSKMarkup.swift in Sources */,
-				303B612F229B062800B8CE4D /* V2TilesHEdgedTileMarkup.swift in Sources */,
+				303B6139229B0ACB00B8CE4D /* H3Tiles1Cy2E3CySKMarkup.swift in Sources */,
+				303B612F229B062800B8CE4D /* V2HTilesEMarkup.swift in Sources */,
 				303B608122971E4B00B8CE4D /* V2TilesESKMarkup.swift in Sources */,
 				303B605E2296854A00B8CE4D /* H2Tiles1E2CyMarkup.swift in Sources */,
 				303B608A229721BB00B8CE4D /* TileEZTileESKMarkup.swift in Sources */,
@@ -647,14 +647,14 @@
 				303B608C2297235400B8CE4D /* TileCZTileEMarkup.swift in Sources */,
 				303B6149229B1B4100B8CE4D /* HTopTileV2TilesHTopTileSKMarkup.swift in Sources */,
 				303B604F22958AC900B8CE4D /* TileCMarkup.swift in Sources */,
-				303B613B229B0C5100B8CE4D /* H3EdgedTilesMarkup.swift in Sources */,
+				303B613B229B0C5100B8CE4D /* H3TilesEMarkup.swift in Sources */,
 				303B606C22968EED00B8CE4D /* H2TilesEMarkup.swift in Sources */,
 				303B605A22967FC500B8CE4D /* V2Tiles1Cx2ESKMarkup.swift in Sources */,
 				303B605C2296802E00B8CE4D /* H2Tiles1Cy2EMarkup.swift in Sources */,
-				303B6145229B1AF400B8CE4D /* HTopTileV2TilesHTopTileMarkup.swift in Sources */,
+				303B6145229B1AF400B8CE4D /* HV2HTilesEMarkup.swift in Sources */,
 				303B606822968AE400B8CE4D /* H2Tiles1Cy2ESKMarkup.swift in Sources */,
 				303B6084229720AB00B8CE4D /* Tiles3Markup.swift in Sources */,
-				303B6137229B0AAB00B8CE4D /* HCenteredTileTileCenteredTileMarkup.swift in Sources */,
+				303B6137229B0AAB00B8CE4D /* H3Tiles1Cy2E3CyMarkup.swift in Sources */,
 				303B605822959A4F00B8CE4D /* Tiles2Markup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -5,7 +5,7 @@
 
 import Foundation
 
-open class V3EdgedTilesSKMarkup: V3EdgedTilesMarkup {
+open class V3TilesESKMarkup: V3TilesEMarkup {
   
   open var tile1Leading: CGFloat = 10
   open var tile1Top: CGFloat = 10

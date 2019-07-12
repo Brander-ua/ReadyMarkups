@@ -5,7 +5,7 @@
 
 import Foundation
 
-open class HTopTileV2TilesHTopTileSKMarkup: HTopTileV2TilesHTopTileMarkup {
+open class HV2HTilesESKMarkup: HV2HTilesEMarkup {
   
   open var tile1Leading: CGFloat = 10
   open var tile1Top: CGFloat = 10

@@ -5,7 +5,7 @@
 
 import Foundation
 
-open class V2Tiles1E2CxMarkup: V2Tiles1E2CxMarkup {
+open class V2Tiles1E2CxSKMarkup: V2Tiles1E2CxMarkup {
   
   open var tile1Leading: CGFloat = 10
   open var tile1Top: CGFloat = 10

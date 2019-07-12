@@ -5,5 +5,5 @@
 
 import Foundation
 
-public protocol HCenteredTileTileCenteredTileMarkup: Tiles3Markup {
+public protocol H3TilesEMarkup: Tiles3Markup {
 }

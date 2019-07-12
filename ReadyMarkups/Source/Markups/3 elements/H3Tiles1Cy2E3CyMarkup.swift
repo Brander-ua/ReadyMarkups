@@ -5,5 +5,5 @@
 
 import Foundation
 
-public protocol V3EdgedTilesMarkup: Tiles3Markup {
+public protocol H3Tiles1Cy2E3CyMarkup: Tiles3Markup {
 }
